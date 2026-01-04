@@ -6,6 +6,9 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import requests
 from collections import deque
 from statistics import mode
+def start_backend():
+    print("Backend started")
+    # load models, DB, APIs, etc
 
 BACKEND_URL = "http://127.0.0.1:8000/predict"
 
@@ -99,3 +102,4 @@ webrtc_streamer(
 # To run this app, use the command:
 # cd C:\ISL_Project
 #streamlit run app.py
+
