@@ -1,0 +1,12 @@
+numpy
+opencv-python
+mediapipe
+scikit-learn
+joblib
+fastapi
+uvicorn
+streamlit
+streamlit-webrtc
+requests
+pydantic
+matplotlib
